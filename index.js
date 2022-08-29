@@ -27,7 +27,3 @@ function init() {
 };
 
 
-
-function myFunction() {
-  document.getElementById("body") = "Hello World";
-}
