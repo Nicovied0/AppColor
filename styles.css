@@ -21,7 +21,7 @@ input[type="color" i]{
 
 .container{
   display: flex;
-  height: 98vh;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -87,5 +87,22 @@ button:hover{
 .checkicon i{
     font-size: 40px;
     color: #47d764;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  cursor:default;
+  text-shadow: 0 0 2px black;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+footer a:hover {
+  color: gray;
+
 }
 

@@ -15,7 +15,7 @@ function toastFunction() {
 
 window.addEventListener('load', init, false);
 function init() {
-  let div = document.querySelector('.container');
+  let div = document.querySelector('.all');
   div.style.visibility = 'visible';
   let boton = document.querySelector('#btn');
   boton.addEventListener('click', function (e) {

@@ -10,36 +10,49 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
-<body id="body" >
-  <div class="container">
-    <div>
-      <h2>Selecciona un color</h2>
-    </div>
-    <div>
-      <input type="color" id="colorPiker" />
-    </div>
-    <div>
-      <button id='btn'style="text-align:center;" onclick="toastFunction();offFunction()">Ocultar menu</button>
-    </div>
-
-    <div id="toast">
-      <div class="checkicon">
-        <i class="fas fa-check-square" />
+<body id="body">
+    <div class="all">
+    <div class="container">
+      <div>
+        <h2>Selecciona un color</h2>
       </div>
-      Presiona doble click para mostrar el menu
-    </div>
-    
+      <div>
+        <input type="color" id="colorPiker" />
+      </div>
+      <div>
+        <button id='btn' style="text-align:center;" onclick="toastFunction();offFunction()">Ocultar menu</button>
+      </div>
 
+      <div id="toast">
+        <div class="checkicon">
+          <i class="fas fa-check-square" />
+        </div>
+        Presiona doble click para mostrar el menu
+      </div>
+
+
+    </div>
+
+    <div class="footer">
+      <footer>
+        <div>
+          <p>Copyright&copy; 2022 - <a href='https://ondev.vercel.app' target="_blank">ONDev.
+            </a>
+          </p>
+
+        </div>
+      </footer>
+    </div>
   </div>
   <script src="index.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
-  $(document).ready(function(){
-    $("body").dblclick(function(){
-      let div = document.querySelector('.container');
-  div.style.visibility = 'visible';
+    $(document).ready(function () {
+      $("body").dblclick(function () {
+        let div = document.querySelector('.all');
+        div.style.visibility = 'visible';
+      });
     });
-  });
   </script>
 </body>
 
