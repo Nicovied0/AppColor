@@ -25,6 +25,7 @@ input[type="color" i]{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 button{
   font-size: 1.2rem;
@@ -87,3 +88,4 @@ button:hover{
     font-size: 40px;
     color: #47d764;
 }
+
